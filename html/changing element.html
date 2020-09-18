@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<p id="first-paragraph">welcome to javascript course</p>
+
+     <button id="first-button">appendtext</button>
+       <p id="second-paragraph">this black change it to red</p>
+          <button id="second-button">click for red</button>
+
+ 
+<script type="text/javascript">
+           document.getElementById("first-button").onclick=function() {
+              document.getElementById("first-paragraph").innerHTML="tofay is beginning"+"&nbsp;&nbsp;"+document.getElementById("first-paragraph").innerHTML+"<h1>thanks for watching</h1>";}
+
+
+           document.getElementById("second-button").onclick=function() {
+              document.getElementById("second-paragraph").style.textDecoration="underline";}
+
+           
+
+           document.getElementById("second-button").onclick=function() {
+              document.getElementById("second-paragraph").style.color="red";}
+
+
+</script>
+
+
+</body>
+</html>
